@@ -21,7 +21,7 @@ for index, todo in enumerate(todos):
     if checked:
         todos.pop(index)
         functions.write_todos(todos)
-        del st.session_state[todo]
+        del st.session_state[f"todo_{index}"]
         st.experimental_rerun()
 
 
