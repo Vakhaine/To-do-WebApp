@@ -12,12 +12,11 @@ def add_todo():
 
 st.title("My Todo app")
 st.subheader("This is my todo app")
-st.write("This is a <b>productivity</b> app",
-         unsafe_allow_html=True)
+st.write("This a productivity app")
 
 for index, todo in enumerate(todos):
-    checkbox = st.checkbox(todo, key=todo)
-    if checkbox:
+    checked = st.checkbox(todo, key=todo)
+    if checked:
         todos.pop(index)
         functions.write_todos(todos)
         del st.session_state[todo]
