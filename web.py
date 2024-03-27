@@ -16,7 +16,8 @@ st.write("This is a <b>simple and productive</b> app",
          unsafe_allow_html=True)
 
 for index, todo in enumerate(todos):
-    checked = st.checkbox(todo, key=todo)
+    checked = st.checkbox(todo, key=f"todo_{index}")
+    print(checked)
     if checked:
         todos.pop(index)
         functions.write_todos(todos)
