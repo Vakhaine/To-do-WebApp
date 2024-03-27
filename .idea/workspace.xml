@@ -69,7 +69,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711564245213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="variable named mismatched changed checkbox">
+      <option name="closed" value="true" />
+      <created>1711566262594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711566262594</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
