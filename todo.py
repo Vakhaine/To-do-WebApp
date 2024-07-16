@@ -3,6 +3,8 @@ import functions
 
 todos = functions.get_todos()
 
+st.set_page_config(layout="wide")
+
 
 def add_todo():
     todo_to_add = st.session_state['new_todo'] + '\n'
