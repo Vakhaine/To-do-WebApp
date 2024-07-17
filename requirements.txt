@@ -1,4 +1,4 @@
-import builtins
+builtins
 import streamlit
 import sys
 import os
@@ -31,3 +31,4 @@ from numpy._typing import (
     _ArrayLikeNumber_co,
     _ArrayLikeTD64_co,
     _
+streamlit
